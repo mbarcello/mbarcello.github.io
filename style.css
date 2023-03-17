@@ -9,3 +9,41 @@ body {
 
 header {
     background-color: #212529;
+    padding: 2rem;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 767px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header h2 {
+        font-size: 1.25rem;
+    }
+}
